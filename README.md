@@ -4,11 +4,10 @@
 - Here is the MySQL .sql:
 
 
-`CREATE DATABASE `test` 
-/*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
-CREATE TABLE `users` ( 
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name1` varchar(50) DEFAULT NULL,
-  `gender` varchar(10) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;`
+`CREATE DATABASE `test` <br>
+CREATE TABLE `users` ( <br>
+  `id` int(11) NOT NULL AUTO_INCREMENT,<br>
+  `name1` varchar(50) DEFAULT NULL,<br>
+  `gender` varchar(10) DEFAULT NULL,<br>
+  PRIMARY KEY (`id`)<br>
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;`<br>
