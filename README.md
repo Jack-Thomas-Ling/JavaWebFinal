@@ -5,6 +5,7 @@
 
 ```
 CREATE DATABASE `test` ;
+use test;
 CREATE TABLE `users` ( 
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) DEFAULT NULL,
