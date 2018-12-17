@@ -4,7 +4,7 @@
 - Here is the MySQL .sql:
 
 ```
-CREATE DATABASE `test` 
+CREATE DATABASE `test` ;
 CREATE TABLE `users` ( 
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name1` varchar(50) DEFAULT NULL,
